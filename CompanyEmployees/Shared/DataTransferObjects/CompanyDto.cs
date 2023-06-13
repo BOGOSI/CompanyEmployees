@@ -7,4 +7,5 @@ using System.Threading.Tasks;
 namespace Shared.DataTransferObjects
 {
 	public record CompanyDto(Guid Id, string Name, string FullAddress);
+
 }
