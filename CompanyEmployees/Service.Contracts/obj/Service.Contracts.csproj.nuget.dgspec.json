@@ -4,14 +4,14 @@
     "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Entities\\Entities.csproj": {
+    "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj",
+        "projectName": "Service.Contracts",
+        "projectPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\BogosiM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,7 +32,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj": {
+    "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj",
-        "projectName": "Service.Contracts",
-        "projectPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\BogosiM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Service.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,11 +96,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\BogosiM\\source\\repos\\Study\\Employees\\CompanyEmployees\\Entities\\Entities.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
